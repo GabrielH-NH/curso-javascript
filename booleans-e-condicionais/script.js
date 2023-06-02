@@ -175,6 +175,8 @@ if (('Gato' === 'gato') && (5 > 2)) {
   console.log('Falso');
 }
 
+/* Irá aparecer Falso no console, pois a primeira expressao ja é false, entao ele só ignora e ja vai direto para o else */
+
 // O que irá aparecer no console?
 if (('Gato' === 'gato') || (5 > 2)) {
   console.log('Gato' && 'Cão');
@@ -182,6 +184,7 @@ if (('Gato' === 'gato') || (5 > 2)) {
   console.log('Falso');
 }
 
+/* Retorna Cão no console, pois as duas expressões sao true, porem tem outra detro de console, onde ele esta retornando o ultimo true, no caso Cão */
 
 
 
