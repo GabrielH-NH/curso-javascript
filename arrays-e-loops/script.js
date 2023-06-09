@@ -117,3 +117,9 @@ for (var i = 0; i < frutas.length; i++) {
 
 var frutas1 = frutas[4]
 console.log(frutas1)
+
+// OU TBM PODEMOS FAZER ASSIM
+
+var ultimaFruta = frutas[frutas.length - 1]
+
+console.log(ultimaFruta)
